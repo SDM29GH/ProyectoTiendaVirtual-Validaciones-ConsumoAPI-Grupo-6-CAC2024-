@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/stylos.css">
+    <link rel="stylesheet" href="../css/estilosFormRegistro.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img class="logoTiendaOnline" src="../assets/LogoTiendaOnline.png" alt=""></a>
+        </nav>
+    </header>
+    <!-- formulario de registro en html y css -->
+    <form action="" method="POST" id="formInicioSesion">
+        <div class="form">
+            <h1>Ingrese en Tienda Online</h1>
+            <div class="grupo">
+                <input type="text" name="" id="email"><span class="barra"></span>
+                <label for="">Ingrese su Email</label>
+                <span id="emailError" class="error"></span>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="password"><span class="barra"></span>
+                <label for="">Ingrese su Contraseña</label>
+                <span id="passwordError" class="error"></span>
+            </div>
+
+            <!-- <button type="submit">Ingrese</button> -->
+            
+            <!-- <a href="Usuario.html"><button type="submit">Ingrese</a></button></a> -->
+
+            <a href="Usuario.html"><button onclick="validacionesInicioSesion()" type="submit">Ingrese</button></a>
+
+            <!-- <button onclick="validacionesInicioSesion()" type="submit"><a href="Usuario.html">Ingrese</a></button> -->
+
+            
+        </div>
+    </form>
+
+    <script src="../js/validacionesInicioSesion.js"></script>
+</body>
+</html>

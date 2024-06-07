@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online-Grupo 6</title>
+    <link rel="stylesheet" href="../css/stylos.css">
+    <link rel="stylesheet" href="../css/estiloFormContact.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <header class="header" id="inicio">
+        <nav class="navegacion">
+            <img class="logoTiendaOnline" src="../assets/LogoTiendaOnline.png" alt="">
+            <div class="opciones-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="tiendaAPI.html">OFERTAS</a>
+                <a href="#servicio">Servicio</a>
+                <a href="#contacto">Contacto</a>
+                <a href="../index.html">Cerrar Sesión</a>
+            </div>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Inicio de Sesión en Tienda Online</h1>
+            <h1 class="titulo">Siéntase bienvenido</h1>
+            <!-- 
+            <h2 class="titulo2">Te motivamos para que realices las mejores compras</h2>
+            <p class="copy">El lugar ideal para comprar desde casa</p>
+            -->
+
+        </div>
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h1 class="subtitulo">Nuestro Servicio</h1>
+            <div class="contenedor-servicio">
+                <img src="../assets/Servicio.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Envío gratis en todo el país</h3>
+                        <p class="p-service">Recibí tu pedido dentro entre 10 y 15 días hábiles</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Retiro gratis en local en todo el país</h3>
+                        <p class="p-service">Podés comprar en todas las sucursales de todo el país</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Facilidades de pago al contado o en cuotas sin intereses con tarjeta de credito y débito</h3>
+                        <p class="p-service">Pagá como quieres. Pago 100% seguro</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- formulario de contacto en html y css -->
+        <section class="formulario-contacto" id="contacto">
+            <div class="contact_form">
+                <div class="formulario">
+                    <h1>Formulario de contacto</h1>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                    <form action="" method="post">
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span></label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"placeholder="Escribe tu nombre">
+                        </p>
+            
+                        <p>
+                            <label for="email" class="colocar_email">Email<span class="obligatorio">*</span>
+                            </label><input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+            
+                        <p>
+                            <label for="telefone" class="colocar_telefono">Teléfono</label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>
+            
+                        <p>
+                            <label for="asunto" class="colocar_asunto">Asunto<span class="obligatorio">*</span></label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe tu asunto">
+                        </p>
+            
+                        <p>
+                            <label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                        </p>
+            
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+            
+                        <p class="aviso"><span class="obligatorio"> * </span>Campo obligatorio.</p>            
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="contenedor footer-content">
+            <div class="contacto-footer">
+                <h2 class="brand">Tienda Online</h2>
+                <p>Para comprar desde casa - En zona centro de tu ciudad</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+</body>
+</html>

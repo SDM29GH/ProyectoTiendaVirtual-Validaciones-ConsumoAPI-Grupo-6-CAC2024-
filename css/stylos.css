@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to top,rgb(142, 45, 226, 0.6),rgb(74, 0, 224, 0.8)), url(../assets/camisa-zapatilla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logoTiendaOnline{
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    width: 150px;
+    height: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.navegacion{
+    position:fixed;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(to top,rgb(55, 48, 134),rgb(15, 12, 41));
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.05);
+}
+
+.opciones-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.navegacion a{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.titulo{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.titulo2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* Galeria*/
+
+.gallery{
+    
+    background: #f2f2f2;
+}
+
+.contenedor{
+    padding-top: 10px;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria{
+    object-fit: cover;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+/* Nuestro Servicio*/
+
+.services{
+    padding-top: 10px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contenedor-servicio{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: thistle;
+}
+
+.contenedor-servicio img{
+    width: 45%;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    font-size: 20px;
+    margin-bottom: 7px;
+    color: #9f8ad0;
+    text-align: left;
+}
+
+.p-service{
+    font-size: 15px;
+    color: white;
+}
+
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+/* Footer */
+
+footer{
+    background: linear-gradient(to top,rgb(55, 48, 134),rgb(15, 12, 41));
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contacto-footer{
+    width: 40%;
+    color: white;
+}
+
+.contacto-footer p{
+    color: white;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.social-media-icon:hover{
+    background: white;
+    color: #764ba2;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 60px;
+}
